@@ -8,8 +8,6 @@ script:
   - coverage run pto1DoblesProduc.py
   - coverage run pto1DoblesSumat.py
   - coverage run pto2AreaTriangulo.py
-  - coverage run test_pto1.py
   - coverage run testComparar.py
   - coverage run testVAnegativo.py
-  - coverage run testVApositivo.py
   - coverage report
