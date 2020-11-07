@@ -14,6 +14,6 @@ Es un servicio de integración continua que está articulado al Github, con lo c
 
 ## Práctico de la clase
 
-Se generó un repo con el archivo sut.py y varios archivos de test unitarios; se creo una cuenta en [Travis CI] (https://travis-ci.org) y se seleccionó el repositorio para ser vinculado. Se subió el archivo .travis.yml que contenía la instrucción de ejecución de cada uno de los test y de creación del reporte. Se agregaron los archivos y se realizó un push. 
-Hubo diferentes resultados de acuerdo a lo que había sido subido, por ejemplo, [en este caso] (https://travis-ci.org/github/leiva7/IntegracionContinuaTravis/builds/741797383) puede verse que falló el build porque había incluído dos tests que tenían errores en su llamado. 
+Se generó un repo con el archivo sut.py y varios archivos de test unitarios; se creo una cuenta en [Travis CI](https://travis-ci.org) y se seleccionó el repositorio para ser vinculado. Se subió el archivo .travis.yml que contenía la instrucción de ejecución de cada uno de los test y de creación del reporte. Se agregaron los archivos y se realizó un push. 
+Hubo diferentes resultados de acuerdo a lo que había sido subido, por ejemplo, [en este caso](https://travis-ci.org/github/leiva7/IntegracionContinuaTravis/builds/741797383) puede verse que falló el build porque había incluído dos tests que tenían errores en su llamado. 
 En cambio [en este caso](https://travis-ci.org/github/leiva7/IntegracionContinuaTravis/builds/741802387), luego de hacer un push en el que esos test ya no se encontraban, el build fue un merge exitoso.
